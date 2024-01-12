@@ -7,13 +7,13 @@ import classes from "./Sidebar.module.css";
 export default function Sidebar({ isOpen }) {
   return (
     <>
-      {isOpen && (
-        <div>
+      {/* {isOpen && ( */}
+        <div className={classes.sidebar}>
           <BsFillGrid1X2Fill />
           <FaRegCalendarAlt />
           <MdAutoGraph />
         </div>
-      )}
+      {/* )} */}
     </>
   );
 }

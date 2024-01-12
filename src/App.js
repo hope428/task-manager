@@ -14,7 +14,6 @@ function App() {
   return (
     <>
     <MainHeader toggleSidebar={handleSidebar}/>
-    <Sidebar isOpen={isOpen}/>
     <Outlet />
     </>
   );
