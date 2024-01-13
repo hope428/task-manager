@@ -9,12 +9,14 @@ function App() {
   const [isOpen, setIsOpen] = useState(false) 
   const handleSidebar = () => {
     setIsOpen(!isOpen)
+    console.log("Sidebar = " + isOpen)
   }
+
 
   return (
     <>
     <MainHeader toggleSidebar={handleSidebar}/>
-    <Outlet />
+    <Outlet context={[isOpen, setIsOpen]}/>
     </>
   );
 }

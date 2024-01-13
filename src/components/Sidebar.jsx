@@ -1,19 +1,16 @@
-import { useState } from "react";
 import { BsFillGrid1X2Fill } from "react-icons/bs";
 import { FaRegCalendarAlt } from "react-icons/fa";
 import { MdAutoGraph } from "react-icons/md";
 import classes from "./Sidebar.module.css";
 
-export default function Sidebar({ isOpen }) {
+export default function Sidebar() {
   return (
     <>
-      {/* {isOpen && ( */}
-        <div className={classes.sidebar}>
-          <BsFillGrid1X2Fill />
-          <FaRegCalendarAlt />
-          <MdAutoGraph />
-        </div>
-      {/* )} */}
+      <div className={classes.sidebar}>
+        <BsFillGrid1X2Fill />
+        <FaRegCalendarAlt />
+        <MdAutoGraph />
+      </div>
     </>
   );
 }
