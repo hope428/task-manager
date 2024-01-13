@@ -10,7 +10,7 @@ export default function MainHeader({toggleSidebar}) {
     <nav className={classes.navbar}>
     <button className={classes.sidebarBtn} onClick={toggleSidebar}><GiHamburgerMenu /></button>
       <div>
-        <Link>Tasks</Link>
+        <Link to="/dashboard">Tasks</Link>
         <Link>Pricing</Link>
         <Link>Terms and Conditions</Link>
       </div>
