@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Redesign company logo",
+        "dueDate": "01/01/2025",
+        "completed": "false",
+        "description": "Lorem ipsum dolor",
+        "importance": 3
+    },
+    {
+        "title": "Deploy new company database",
+        "dueDate": "03/31/2024",
+        "completed": "false",
+        "description": "Lorem ipsum dolor",
+        "importance": 1
+    },
+    {
+        "title": "Review junior developer code",
+        "dueDate": "01/31/2024",
+        "completed": "false",
+        "description": "Lorem ipsum dolor",
+        "importance": 2
+    }
+]
