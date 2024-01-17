@@ -13,12 +13,15 @@ export default function Dashboard() {
       {(isOpen && <Sidebar/>)}
       <div className={classes.dashboard}>
         <div className={classes.backlog}>
+            <h1>Backlog</h1>
             <Card />
         </div>
         <div className={classes.current}>
+            <h1>Current</h1>
             <Card />
         </div>
         <div className={classes.finished}>
+            <h1>Completed</h1>
             <Card />
         </div>
       </div>
