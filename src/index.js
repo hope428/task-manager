@@ -8,6 +8,7 @@ import "./index.css";
 import App from "./App";
 import Dashboard from "./components/Dashboard";
 import reportWebVitals from "./reportWebVitals";
+import {loader as tasksLoader} from "./components/Dashboard"
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,8 @@ const router = createBrowserRouter([
     element: <App />,
     children: [{
       path: "/dashboard",
-      element: <Dashboard />
+      element: <Dashboard />,
+      loader: tasksLoader
     }],
   },
 ]);
