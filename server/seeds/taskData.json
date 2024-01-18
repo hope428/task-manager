@@ -19,5 +19,12 @@
         "completed": "false",
         "description": "Lorem ipsum dolor",
         "importance": 2
+    },
+    {
+        "title": "Take React Router class",
+        "dueDate": "05/31/2024",
+        "completed": "false",
+        "description": "Lorem ipsum dolor",
+        "importance": 2
     }
 ]

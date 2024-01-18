@@ -7,3 +7,17 @@
     margin: 0 auto;
     background-color: rgba(255, 252, 252, 0.88);
 }
+
+.details {
+    display: flex;
+    align-items: center;
+    font-weight: light;
+    line-height: 1rem;
+    color: gray;
+    gap: 1rem;
+}
+
+h1 {
+    font-size: 1.1rem;
+}
+

@@ -13,7 +13,7 @@ export default function Dashboard() {
     <main className={classes.main}>
       {isOpen && <Sidebar />}
       <div className={classes.dashboard}>
-        <div className={classes.backlog}>
+        <div className={classes.column}>
           <h1>Backlog</h1>
           {tasks.map((task) => {
             if(task.importance === 3){
@@ -21,7 +21,7 @@ export default function Dashboard() {
             }
           })}
         </div>
-        <div className={classes.current}>
+        <div className={classes.column}>
           <h1>Current</h1>
           {tasks.map((task) => {
             if(task.importance === 2){
@@ -29,7 +29,7 @@ export default function Dashboard() {
             }
           })}
         </div>
-        <div className={classes.finished}>
+        <div className={classes.column}>
           <h1>Completed</h1>
           {tasks.map((task) => {
             if(task.importance === 1){
