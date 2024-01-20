@@ -9,6 +9,7 @@ import App from "./App";
 import Dashboard from "./components/Dashboard";
 import reportWebVitals from "./reportWebVitals";
 import {loader as tasksLoader} from "./components/Dashboard"
+import NewTaskForm from "./components/NewTaskForm";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,9 @@ const router = createBrowserRouter([
       path: "/dashboard",
       element: <Dashboard />,
       loader: tasksLoader
+    }, {
+      path: "/new-task",
+      element: <NewTaskForm />
     }],
   },
 ]);
